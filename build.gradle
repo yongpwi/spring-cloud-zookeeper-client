@@ -25,6 +25,7 @@ dependencies {
 	compile('org.apache.zookeeper:zookeeper:3.4.12') {
 		exclude group: 'org.slf4j', module: 'slf4j-log4j12'
 	}
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-openfeign', version: '2.0.2.RELEASE'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
